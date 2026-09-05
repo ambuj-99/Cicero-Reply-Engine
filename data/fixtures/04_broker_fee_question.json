@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "Message-ID": "<a4@apexadvisors.co.in>",
+    "From": "rmehta@apexadvisors.co.in",
+    "Subject": "Re: deal flow"
+  },
+  "body": "Before I share anything, what's your fee arrangement with intermediaries? We typically work on 2% success fee. Also need proof of funds.\n\nRahul Mehta\nApex Advisors",
+  "received_at": "2026-09-05T12:42:02.100246+00:00",
+  "to": [
+    "deals@cicero.com"
+  ],
+  "cc": [],
+  "expect": "HUMAN_ONLY / Gate 2 -- fee, percentage and proof of funds all trip it"
+}

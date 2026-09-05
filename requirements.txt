@@ -1,0 +1,14 @@
+# Core -- needed for the mock demo to run
+PyYAML>=6.0
+python-dateutil>=2.8
+
+# LLM -- only needed when you switch off mock mode
+anthropic>=0.40.0
+
+# Google -- only needed for --live
+google-api-python-client>=2.100
+google-auth-oauthlib>=1.2
+google-auth>=2.30
+
+# Tests
+pytest>=8.0

@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "Message-ID": "<a5@northgatelabs.in>",
+    "From": "founder@northgatelabs.in",
+    "Auto-Submitted": "auto-replied",
+    "Subject": "Automatic reply: Northgate"
+  },
+  "body": "I am out of the office and will be back on 22 September. For urgent matters contact my office.",
+  "received_at": "2026-09-05T12:42:02.100246+00:00",
+  "to": [
+    "deals@cicero.com"
+  ],
+  "cc": [],
+  "expect": "OOO -- 10 day suppression, no reply sent, no LLM call"
+}

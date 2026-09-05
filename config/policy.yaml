@@ -1,0 +1,67 @@
+# ============================================================
+# Every business rule the system obeys lives here, not in code.
+# Change behaviour by editing this file.
+# ============================================================
+
+thresholds:
+  intent_confidence_min: 0.75
+  identity_confidence_min: 0.80
+  fact_coverage_min: 0.99
+  schedule_confidence_min: 0.80
+
+# The ONLY situations the system may send without a human looking.
+auto_send_allowlist:
+  - {state: CALL_OFFERED, intent: BOOK_NOW}
+  - {state: "*",          intent: DECLINE}
+  - {state: "*",          intent: DEFER}
+
+hard_stops:
+  max_machine_turns: 2
+  max_recipients: 2
+  block_on_attachment: true
+  max_body_words: 400
+  max_message_age_days: 5
+  money_pattern: '(?:[$₹]|USD|INR|Rs\.?)\s?[\d,]+|\b\d+(?:\.\d+)?\s?(?:x|%|k|m|mn|cr|crore|lakh|lakhs|million|billion)\b'
+  sensitive_keywords:
+    - nda
+    - term sheet
+    - loi
+    - letter of intent
+    - exclusivity
+    - lawyer
+    - attorney
+    - legal
+    - fee agreement
+    - success fee
+    - retainer
+    - proof of funds
+    - valuation
+    - multiple
+    - journalist
+    - press
+    - lawsuit
+
+scheduling:
+  duration_minutes: 30
+  buffer_minutes: 15
+  min_lead_hours: 24
+  max_lead_business_days: 10
+  business_hours: {start: 10, end: 18}
+  default_timezone: Asia/Kolkata
+  organiser_timezone: Asia/Kolkata
+  organiser_calendar: primary
+  holidays: ["2026-10-02", "2026-10-20", "2026-12-25"]
+
+send:
+  delay_minutes_min: 7
+  delay_minutes_max: 25
+  business_hours_only: true
+
+defer_defaults_days:
+  HARD_DATED: 7
+  EVENT_CONDITIONAL: 120
+  SEASONAL: 60
+  SOFT_BRUSHOFF: 180
+  CAPACITY: 30
+  PROCESS_BLOCKED: 90
+  UNKNOWN: 90

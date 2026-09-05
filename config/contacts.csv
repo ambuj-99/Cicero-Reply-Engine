@@ -1,0 +1,7 @@
+email,name,org,sender_type,timezone,campaign,outbound_mailbox,status
+priya@kesarfoods.in,Priya Nair,Kesar Foods,FOUNDER,Asia/Kolkata,founders_q3_food,arjun@cicero-out3.com,ACTIVE
+rmehta@apexadvisors.co.in,Rahul Mehta,Apex Advisors,BROKER,Asia/Kolkata,brokers_q3,neha@cicero-out1.com,ACTIVE
+s.iyer@vaultpackaging.com,Suresh Iyer,Vault Packaging,FOUNDER,Asia/Kolkata,founders_q3_mfg,arjun@cicero-out3.com,ACTIVE
+dmenon@menonassociates.in,Deepa Menon,Menon Associates,BROKER,Asia/Kolkata,brokers_q3,neha@cicero-out1.com,ACTIVE
+k.rao@sunrisechem.in,Kiran Rao,Sunrise Chemicals,FOUNDER,Asia/Kolkata,founders_q3_mfg,arjun@cicero-out3.com,ACTIVE
+founder@northgatelabs.in,Vikram Shah,Northgate Labs,FOUNDER,Asia/Kolkata,founders_q3_svc,arjun@cicero-out3.com,ACTIVE

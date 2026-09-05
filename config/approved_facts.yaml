@@ -1,0 +1,39 @@
+# The ONLY claims the model is permitted to make.
+# If a question does not map to a fact here, the message goes to a human.
+# TODO(Roopesh): replace every placeholder with Cicero's real language.
+
+facts:
+  who_we_are:
+    keywords: [who are you, what is cicero, what do you do, about you, your firm, background]
+    text: >
+      Cicero acquires and invests in established Indian small and mid-sized
+      businesses. We are the buyer ourselves, not a broker.
+
+  what_we_buy:
+    keywords: [what kind, what sort, criteria, thesis, sectors, which businesses, mandate, looking for]
+    text: >
+      We look at profitable, owner-run businesses with a track record.
+      Sector-agnostic, with a bias toward services and light manufacturing.
+
+  process:
+    keywords: [process, next steps, how does this work, what happens, timeline]
+    text: >
+      The first step is a short call to understand the business. Nothing is
+      shared outside our team before that.
+
+  confidentiality:
+    keywords: [confidential, discreet, privacy, who else, share]
+    text: >
+      Conversations stay between us and our internal team. We do not circulate details.
+
+  how_we_found_you:
+    keywords: [how did you find, where did you get, my email, contact me]
+    text: >
+      We research businesses in sectors we follow and reach out directly.
+
+  call_logistics:
+    keywords: [how long, call length, video, phone, meet, zoom]
+    text: >
+      A first call is thirty minutes, over Google Meet or phone, whichever you prefer.
+
+sendable_assets: []
